@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class IfElseLearning {
     public static void main(String[] args) {
+
         float height,weight, BMI;
         Scanner scanner = new Scanner(System.in);
         System.out.print("Input Height(m): ");
@@ -20,6 +21,16 @@ public class IfElseLearning {
         } else {
             System.out.println("BMI: " + BMI + " \nYou Are Obesity!!!");
         }
+
+
+    }
+    public void MAX(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("nhập số a: ");
+        int a = scanner.nextInt();
+        System.out.println("nhập số b");
+        int b = scanner.nextInt();
+        System.out.println("tổng hai số: " + (a + b));
 
     }
 }
